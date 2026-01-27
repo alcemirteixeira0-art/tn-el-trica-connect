@@ -26,7 +26,7 @@ const Header = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -39,7 +39,7 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden lg:flex">
             <Button variant="cta" size="lg" asChild>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Phone className="w-4 h-4" />
@@ -50,7 +50,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-primary"
+            className="lg:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -60,7 +60,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-border animate-fade-in">
+          <nav className="lg:hidden">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <a
