@@ -38,7 +38,7 @@ const services = [
   {
     icon: Zap,
     title: "Energia Solar & Mobilidade Elétrica",
-    description: "Sistemas de automação para processos industriais, CLPs, inversores de frequência e painéis de controle.",
+    description: "Instalação de placas solares fotovoltaicas, inversores e carregadores para veículos elétricos.",
     whatsappMessage: "Olá! Gostaria de um orçamento para automação industrial.",
   },
   {
