@@ -1,12 +1,9 @@
 import { Phone, Mail, MapPin, Instagram, Facebook, Clock, Zap } from "lucide-react";
 import { Button } from "./ui/button";
 import logo from "@/assets/logo.png";
-
 const Footer = () => {
   const whatsappLink = "https://wa.me/5500000000000?text=Olá! Gostaria de solicitar um orçamento.";
-
-  return (
-    <footer id="contato" className="bg-electric-navy text-white">
+  return <footer id="contato" className="bg-electric-navy text-white">
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-secondary to-electric-yellow-dark py-12">
         <div className="container mx-auto px-4">
@@ -41,16 +38,10 @@ const Footer = () => {
                 Atendemos residências, comércios e indústrias.
               </p>
               <div className="flex gap-4">
-                <a 
-                  href="#" 
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all"
-                >
+                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a 
-                  href="#" 
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all"
-                >
+                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
                   <Facebook className="w-5 h-5" />
                 </a>
               </div>
@@ -82,7 +73,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <Phone className="w-5 h-5 text-secondary mt-0.5" />
                   <div>
-                    <p className="font-medium text-white">(00) 00000-0000</p>
+                    <p className="font-medium text-white">(91) 99977-4401</p>
                     <p className="text-sm">WhatsApp disponível</p>
                   </div>
                 </li>
@@ -144,8 +135,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
