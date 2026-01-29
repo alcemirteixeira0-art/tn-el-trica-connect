@@ -15,7 +15,7 @@ const portfolioItems = [
   {
     image: work2,
     title: "Painel Industrial",
-    category: "Industrial",
+    category: "Predial",
     description: "Montagem de painel de automação industrial com CLPs e inversores.",
   },
   {
