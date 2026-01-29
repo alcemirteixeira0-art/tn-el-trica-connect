@@ -55,7 +55,7 @@ const Footer = () => {
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Comerciais</a></li>
                 <li>Instalações Prediais<a href="#servicos" className="hover:text-secondary transition-colors">Instalações Industriais</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Automação Residencial</a></li>
-                <li>Energia Solar & Mobilidade Elétrica<a href="#servicos" className="hover:text-secondary transition-colors">Automação Industrial</a></li>
+                
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Manutenção Preventiva</a></li>
               </ul>
             </div>
