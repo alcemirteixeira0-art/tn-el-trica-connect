@@ -26,7 +26,7 @@ const services = [
   {
     icon: Factory,
     title: "Instalações Prediais",
-    description: "Soluções elétricas em baixa tensão para condomínios e edifícios, incluindo quadros de distribuição e sistemas de proteção em geral.",
+    description: "Soluções elétricas em baixa tensão para condomínios e edifícios, serviços modernos em quadros e sistemas de proteção.",
     whatsappMessage: "Olá! Gostaria de um orçamento para instalação elétrica industrial.",
   },
   {
