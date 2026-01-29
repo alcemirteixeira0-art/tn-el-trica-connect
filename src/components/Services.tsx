@@ -25,7 +25,7 @@ const services = [
   },
   {
     icon: Factory,
-    title: "Instalações Industriais",
+    title: "Instalações Prediais",
     description: "Soluções elétricas para indústrias, incluindo alta tensão, quadros de comando e sistemas de proteção.",
     whatsappMessage: "Olá! Gostaria de um orçamento para instalação elétrica industrial.",
   },
