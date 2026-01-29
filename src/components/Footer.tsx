@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Brand */}
             <div className="lg:col-span-1">
-              <img src={logo} alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2 object-fill" />
+              <img alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2 object-fill" src="/lovable-uploads/ce0efb77-5b17-4641-9b7a-b869b3b52796.png" />
               <p className="text-white/70 mb-6">Soluções elétricas e de automação com qualidade, segurança e garantia. Atendemos residências, comércios, condomínios e edifícios.</p>
               <div className="flex gap-4">
                 <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
