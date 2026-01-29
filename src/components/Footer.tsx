@@ -32,11 +32,8 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Brand */}
             <div className="lg:col-span-1">
-              <img src={logo} alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2" />
-              <p className="text-white/70 mb-6">
-                Soluções elétricas e de automação com qualidade, segurança e garantia. 
-                Atendemos residências, comércios e indústrias.
-              </p>
+              <img src={logo} alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2 object-contain" />
+              <p className="text-white/70 mb-6">Soluções elétricas e de automação com qualidade, segurança e garantia. Atendemos residências, comércios, condomínios e edifícios.</p>
               <div className="flex gap-4">
                 <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
                   <Instagram className="w-5 h-5" />
@@ -56,9 +53,9 @@ const Footer = () => {
               <ul className="space-y-3 text-white/70">
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Residenciais</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Comerciais</a></li>
-                <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Industriais</a></li>
+                <li>Instalações Prediais<a href="#servicos" className="hover:text-secondary transition-colors">Instalações Industriais</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Automação Residencial</a></li>
-                <li><a href="#servicos" className="hover:text-secondary transition-colors">Automação Industrial</a></li>
+                <li>Energia Solar & Mobilidade Elétrica<a href="#servicos" className="hover:text-secondary transition-colors">Automação Industrial</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Manutenção Preventiva</a></li>
               </ul>
             </div>
@@ -86,7 +83,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-secondary mt-0.5" />
                   <div>
-                    <p>Sua Cidade - Estado</p>
+                    <p>Belém - Ananindeua - Pará </p>
                   </div>
                 </li>
               </ul>
