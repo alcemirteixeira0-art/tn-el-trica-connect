@@ -37,7 +37,7 @@ const services = [
   },
   {
     icon: Zap,
-    title: "Automação Industrial",
+    title: "Energia Solar & Mobilidade Elétrica",
     description: "Sistemas de automação para processos industriais, CLPs, inversores de frequência e painéis de controle.",
     whatsappMessage: "Olá! Gostaria de um orçamento para automação industrial.",
   },
