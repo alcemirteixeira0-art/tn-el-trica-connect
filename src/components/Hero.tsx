@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 import logo from "@/assets/logo.png";
 const Hero = () => {
-  const whatsappLink = "https://wa.me/5500000000000?text=Olá! Gostaria de solicitar um orçamento.";
+  const whatsappLink = "https://wa.me/5591999774401?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.";
   return <section id="inicio" className="relative min-h-screen flex items-center pt-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
