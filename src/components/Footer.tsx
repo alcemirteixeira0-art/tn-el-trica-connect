@@ -1,12 +1,9 @@
 import { Phone, Mail, MapPin, Instagram, Facebook, Clock, Zap } from "lucide-react";
 import { Button } from "./ui/button";
 import logo from "@/assets/logo.png";
-
 const Footer = () => {
   const whatsappLink = "https://wa.me/5500000000000?text=Olá! Gostaria de solicitar um orçamento.";
-
-  return (
-    <footer id="contato" className="bg-electric-navy text-white">
+  return <footer id="contato" className="bg-electric-navy text-white">
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-secondary to-electric-yellow-dark py-12">
         <div className="container mx-auto px-4">
@@ -35,22 +32,16 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Brand */}
             <div className="lg:col-span-1">
-              <img src={logo} alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2" />
+              <img alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2" src="/lovable-uploads/e950b1b6-2313-4256-8734-5f29e92b1fd2.png" />
               <p className="text-white/70 mb-6">
                 Soluções elétricas e de automação com qualidade, segurança e garantia. 
                 Atendemos residências, comércios e indústrias.
               </p>
               <div className="flex gap-4">
-                <a 
-                  href="#" 
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all"
-                >
+                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a 
-                  href="#" 
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all"
-                >
+                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
                   <Facebook className="w-5 h-5" />
                 </a>
               </div>
@@ -144,8 +135,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
