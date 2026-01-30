@@ -1,9 +1,12 @@
 import { Phone, Mail, MapPin, Instagram, Facebook, Clock, Zap } from "lucide-react";
 import { Button } from "./ui/button";
 import logo from "@/assets/logo.png";
+
 const Footer = () => {
   const whatsappLink = "https://wa.me/5500000000000?text=Olá! Gostaria de solicitar um orçamento.";
-  return <footer id="contato" className="bg-electric-navy text-white">
+
+  return (
+    <footer id="contato" className="bg-electric-navy text-white">
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-secondary to-electric-yellow-dark py-12">
         <div className="container mx-auto px-4">
@@ -32,13 +35,22 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Brand */}
             <div className="lg:col-span-1">
-              <img alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2 object-fill" src="/lovable-uploads/ce0efb77-5b17-4641-9b7a-b869b3b52796.png" />
-              <p className="text-white/70 mb-6">Soluções elétricas e de automação com qualidade, segurança e garantia. Atendemos residências, comércios, condomínios e edifícios.</p>
+              <img src={logo} alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2" />
+              <p className="text-white/70 mb-6">
+                Soluções elétricas e de automação com qualidade, segurança e garantia. 
+                Atendemos residências, comércios e indústrias.
+              </p>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
+                <a 
+                  href="#" 
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all"
+                >
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
+                <a 
+                  href="#" 
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all"
+                >
                   <Facebook className="w-5 h-5" />
                 </a>
               </div>
@@ -53,9 +65,9 @@ const Footer = () => {
               <ul className="space-y-3 text-white/70">
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Residenciais</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Comerciais</a></li>
-                <li>Instalações Prediais<a href="#servicos" className="hover:text-secondary transition-colors">Instalações Industriais</a></li>
+                <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Industriais</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Automação Residencial</a></li>
-                
+                <li><a href="#servicos" className="hover:text-secondary transition-colors">Automação Industrial</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Manutenção Preventiva</a></li>
               </ul>
             </div>
@@ -70,7 +82,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <Phone className="w-5 h-5 text-secondary mt-0.5" />
                   <div>
-                    <p className="font-medium text-white">(91) 99977-4401</p>
+                    <p className="font-medium text-white">(00) 00000-0000</p>
                     <p className="text-sm">WhatsApp disponível</p>
                   </div>
                 </li>
@@ -83,7 +95,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-secondary mt-0.5" />
                   <div>
-                    <p>Belém - Ananindeua - Pará </p>
+                    <p>Sua Cidade - Estado</p>
                   </div>
                 </li>
               </ul>
@@ -132,6 +144,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;
