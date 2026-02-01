@@ -59,7 +59,7 @@ const Footer = () => {
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Instalações Prediais</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Automação Residencial</a></li>
                 <li><a href="#servicos" className="hover:text-secondary transition-colors">Energia Solar & Mobilidade Elétrica</a></li>
-                <li><a href="#servicos" className="hover:text-secondary transition-colors">Manutenção Preventiva</a></li>
+                <li><a href="#servicos" className="hover:text-secondary transition-colors">Manutenções Elétricas</a></li>
               </ul>
             </div>
 
