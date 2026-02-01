@@ -39,7 +39,7 @@ const services = [
     icon: Zap,
     title: "Energia Solar & Mobilidade Elétrica",
     description: "Instalação de placas solares fotovoltaicas, inversores e carregadores para veículos elétricos.",
-    whatsappMessage: "Olá! Gostaria de um orçamento para automação industrial.",
+    whatsappMessage: "Olá! Gostaria de um orçamento para Energia Solar & Mobilidade Elétrica.",
   },
   {
     icon: Lightbulb,
