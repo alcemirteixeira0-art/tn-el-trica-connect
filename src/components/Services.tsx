@@ -51,7 +51,7 @@ const services = [
 
 const Services = () => {
   const getWhatsappLink = (message: string) => {
-    return `https://wa.me/5500000000000?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/5591999774401?text=${encodeURIComponent(message)}`;
   };
 
   return (
