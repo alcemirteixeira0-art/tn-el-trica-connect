@@ -45,7 +45,7 @@ const services = [
     icon: Lightbulb,
     title: "Manutenções Elétricas",
     description: "Manutenção preventiva e corretiva para garantir a segurança e funcionamento contínuo de suas instalações.",
-    whatsappMessage: "Olá! Gostaria de um orçamento para manutenção preventiva.",
+    whatsappMessage: "Olá! Gostaria de um orçamento para manutenção elétrica.",
   },
 ];
 
