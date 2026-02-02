@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Mariana Costa",
     role: "Gerente de Loja",
-    content: "Contratei para fazer a manutenção elétrica da minha loja e fiquei impressionada com a organização e conhecimento técnico. Recomendo!",
+    content: "Ótimo profissional!",
     rating: 5,
     avatar: "MC",
   },
