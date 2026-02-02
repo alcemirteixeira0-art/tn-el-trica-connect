@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card";
 
 const testimonials = [
   {
-    name: "Carlos Eduardo",
+    name: "Hilder Lobato",
     role: "Proprietário Residencial",
     content: "Pode confiar, excelentes preços, prazo curto e atendimento de primeira, sem contar com a educação do profissional. Super recomendo.",
     rating: 5,
