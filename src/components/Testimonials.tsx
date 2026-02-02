@@ -17,7 +17,7 @@ const testimonials = [
     avatar: "WB",
   },
   {
-    name: "Roberto Santos",
+    name: "Ricardo Araujo",
     role: "Diretor Industrial",
     content: "Excelente profissional.",
     rating: 5,
