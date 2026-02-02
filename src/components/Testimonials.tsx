@@ -21,7 +21,7 @@ const testimonials = [
     role: "Diretor Industrial",
     content: "Excelente profissional.",
     rating: 5,
-    avatar: "RS",
+    avatar: "RA",
   },
   {
     name: "Ana Paula Lima",
