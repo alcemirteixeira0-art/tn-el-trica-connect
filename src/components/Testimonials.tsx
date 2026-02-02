@@ -10,7 +10,7 @@ const testimonials = [
     avatar: "HL",
   },
   {
-    name: "Mariana Costa",
+    name: "Wellington Bonifácio",
     role: "Gerente de Loja",
     content: "Ótimo profissional!",
     rating: 5,
