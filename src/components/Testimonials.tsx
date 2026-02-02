@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Carlos Eduardo",
     role: "Proprietário Residencial",
-    content: "Excelente serviço! A equipe foi muito profissional e pontual. Fizeram toda a instalação elétrica da minha casa com muita qualidade e segurança.",
+    content: "Pode confiar, excelentes preços, prazo curto e atendimento de primeira, sem contar com a educação do profissional. Super recomendo.",
     rating: 5,
     avatar: "CE",
   },
