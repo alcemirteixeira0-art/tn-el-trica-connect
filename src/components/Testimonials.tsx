@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: "Roberto Santos",
     role: "Diretor Industrial",
-    content: "A automação industrial que implementaram melhorou significativamente nossa produtividade. Equipe altamente qualificada e comprometida.",
+    content: "Excelente profissional.",
     rating: 5,
     avatar: "RS",
   },
