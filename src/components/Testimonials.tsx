@@ -14,7 +14,7 @@ const testimonials = [
     role: "Gerente de Loja",
     content: "Ótimo profissional!",
     rating: 5,
-    avatar: "MC",
+    avatar: "WB",
   },
   {
     name: "Roberto Santos",
