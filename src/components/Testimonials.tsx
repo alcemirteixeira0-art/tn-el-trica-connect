@@ -1,40 +1,32 @@
 import { Star, Quote } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
-
-const testimonials = [
-  {
-    name: "Hilder Lobato",
-    role: "Empresário",
-    content: "Pode confiar, excelentes preços, prazo curto e atendimento de primeira, sem contar com a educação do profissional. Super recomendo.",
-    rating: 5,
-    avatar: "HL",
-  },
-  {
-    name: "Wellington Bonifácio",
-    role: "Gerente de Loja",
-    content: "Ótimo profissional!",
-    rating: 5,
-    avatar: "WB",
-  },
-  {
-    name: "Ricardo Araujo",
-    role: "Proprietário Residencial",
-    content: "Excelente profissional.",
-    rating: 5,
-    avatar: "RA",
-  },
-  {
-    name: "Gabriel Shimon",
-    role: "Inquilino",
-    content: "Muito bom resolveu meu problema 10/10",
-    rating: 5,
-    avatar: "GS",
-  },
-];
-
+const testimonials = [{
+  name: "Hilder Lobato",
+  role: "Empresário",
+  content: "Pode confiar, excelentes preços, prazo curto e atendimento de primeira, sem contar com a educação do profissional. Super recomendo.",
+  rating: 5,
+  avatar: "HL"
+}, {
+  name: "Wellington Bonifácio",
+  role: "Gerente de Loja",
+  content: "Ótimo profissional!",
+  rating: 5,
+  avatar: "WB"
+}, {
+  name: "Ricardo Araujo",
+  role: "Proprietário Residencial",
+  content: "Excelente profissional.",
+  rating: 5,
+  avatar: "RA"
+}, {
+  name: "Gabriel Shimon",
+  role: "Inquilino",
+  content: "Muito bom resolveu meu problema 10/10",
+  rating: 5,
+  avatar: "GS"
+}];
 const Testimonials = () => {
-  return (
-    <section id="avaliacoes" className="py-20 bg-primary relative overflow-hidden">
+  return <section id="avaliacoes" className="py-20 bg-primary relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 left-0 w-96 h-96 bg-secondary rounded-full blur-3xl" />
@@ -58,20 +50,14 @@ const Testimonials = () => {
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <Card 
-              key={index} 
-              className="bg-white/10 backdrop-blur-sm border-white/10 card-service"
-            >
+          {testimonials.map((testimonial, index) => <Card key={index} className="bg-white/10 backdrop-blur-sm border-white/10 card-service">
               <CardContent className="p-8">
                 {/* Quote Icon */}
                 <Quote className="w-10 h-10 text-secondary mb-6 opacity-50" />
 
                 {/* Rating */}
                 <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-secondary text-secondary" />
-                  ))}
+                  {[...Array(testimonial.rating)].map((_, i) => <Star key={i} className="w-5 h-5 fill-secondary text-secondary" />)}
                 </div>
 
                 {/* Content */}
@@ -92,19 +78,14 @@ const Testimonials = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Add More Reviews Notice */}
         <div className="mt-12 text-center">
-          <p className="text-white/50">
-            Esta área pode ser atualizada com avaliações reais dos seus clientes.
-          </p>
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Testimonials;
