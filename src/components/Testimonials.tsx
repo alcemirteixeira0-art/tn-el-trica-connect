@@ -28,7 +28,7 @@ const testimonials = [
     role: "Arquiteta",
     content: "Muito bom resolveu meu problema 10/10",
     rating: 5,
-    avatar: "AL",
+    avatar: "GS",
   },
 ];
 
