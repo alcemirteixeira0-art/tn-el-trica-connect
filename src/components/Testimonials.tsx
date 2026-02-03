@@ -24,7 +24,7 @@ const testimonials = [
     avatar: "RA",
   },
   {
-    name: "Ana Paula Lima",
+    name: "Gabriel Shimon",
     role: "Arquiteta",
     content: "Muito bom resolveu meu problema 10/10",
     rating: 5,
