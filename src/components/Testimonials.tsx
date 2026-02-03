@@ -26,7 +26,7 @@ const testimonials = [
   {
     name: "Ana Paula Lima",
     role: "Arquiteta",
-    content: "Sempre indico a TN Elétrica para meus clientes. O sistema de automação residencial que instalaram ficou perfeito, superou as expectativas.",
+    content: "Muito bom resolveu meu problema 10/10",
     rating: 5,
     avatar: "AL",
   },
