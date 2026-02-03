@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     name: "Ricardo Araujo",
-    role: "Diretor Industrial",
+    role: "Proprietário Residencial",
     content: "Excelente profissional.",
     rating: 5,
     avatar: "RA",
