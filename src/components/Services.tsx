@@ -5,7 +5,10 @@ import {
   Factory, 
   Cpu, 
   Lightbulb,
-  MessageCircle
+  MessageCircle,
+  Camera,
+  KeyRound,
+  DoorOpen
 } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
@@ -46,6 +49,24 @@ const services = [
     title: "Manutenções Elétricas",
     description: "Manutenção preventiva e corretiva para garantir a segurança e funcionamento contínuo de suas instalações.",
     whatsappMessage: "Olá! Gostaria de um orçamento para manutenção elétrica.",
+  },
+  {
+    icon: Camera,
+    title: "Câmeras de Segurança (CFTV)",
+    description: "Instalação e manutenção de sistemas de câmeras de segurança (CFTV), com configuração de gravação, acesso remoto pelo celular e orientação completa ao cliente.",
+    whatsappMessage: "Olá! Gostaria de um orçamento para câmeras de segurança (CFTV).",
+  },
+  {
+    icon: KeyRound,
+    title: "Segurança Eletrônica & Controle de Acesso",
+    description: "Instalação e manutenção de interfones, video porteiros, fechaduras eletrônicas e inteligentes, controle de acesso residencial e predial, garantindo mais praticidade, controle e segurança no dia a dia.",
+    whatsappMessage: "Olá! Gostaria de um orçamento para segurança eletrônica e controle de acesso.",
+  },
+  {
+    icon: DoorOpen,
+    title: "Motor de Portão Eletrônico",
+    description: "Instalação, ajuste e manutenção de motores para portões eletrônicos, garantindo funcionamento seguro, suave e confiável.",
+    whatsappMessage: "Olá! Gostaria de um orçamento para motor de portão eletrônico.",
   },
 ];
 
