@@ -5,7 +5,7 @@ import work2 from "@/assets/work-2.jpg";
 import work3 from "@/assets/work-3.jpg";
 import work4 from "@/assets/work-4.jpg";
 const portfolioItems = [{
-  image: quadro,
+  image: work1,
   title: "Instalação Residencial",
   category: "Residencial",
   description: "Quadro de distribuição completo com disjuntores e organização de cabos."
