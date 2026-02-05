@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import work1 from "@/assets/quadro.jpg";
-import work2 from "@/assets/work-2.jpg";
+import work2 from "@/assets/cftv.png";
 import work3 from "@/assets/work-3.jpg";
 import work4 from "@/assets/work-4.jpg";
 const portfolioItems = [{
@@ -11,9 +11,9 @@ const portfolioItems = [{
   description: "Quadro de distribuição completo com disjuntores e organização de cabos."
 }, {
   image: work2,
-  title: "Painel Industrial",
-  category: "Predial",
-  description: "Montagem de painel de automação industrial com CLPs e inversores."
+  title: "Instalação de Câmeras de Segurança e CFTV",
+  category: "CFTV",
+  description: "Instalação de sistemas de monitoramento com câmeras estrategicamente posicionadas, gravação contínua e acesso remoto."
 }, {
   image: work3,
   title: "Automação Residencial",
