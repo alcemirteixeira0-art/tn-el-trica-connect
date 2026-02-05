@@ -11,7 +11,7 @@ const portfolioItems = [{
   description: "Quadro de distribuição completo com disjuntores e organização de cabos."
 }, {
   image: work2,
-  title: "Instalação de Câmeras de CFTV",
+  title: "Instalação de CFTV",
   category: "CFTV",
   description: "Instalação de sistemas de monitoramento com câmeras estrategicamente posicionadas, gravação contínua e acesso remoto."
 }, {
