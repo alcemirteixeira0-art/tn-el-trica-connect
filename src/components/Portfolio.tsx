@@ -2,7 +2,7 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import work1 from "@/assets/quadro.jpg";
 import work2 from "@/assets/cftv.png";
-import work3 from "@/assets/work-3.jpg";
+import work3 from "@/assets/motor.png";
 import work4 from "@/assets/work-4.jpg";
 const portfolioItems = [{
   image: work1,
