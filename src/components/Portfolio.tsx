@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import work1 from "@/assets/work-1.jpg";
+import work1 from "@/assets/residenci.png";
 import work2 from "@/assets/work-2.jpg";
 import work3 from "@/assets/work-3.jpg";
 import work4 from "@/assets/work-4.jpg";
