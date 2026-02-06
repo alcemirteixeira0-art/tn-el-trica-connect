@@ -59,7 +59,7 @@ const services = [
   {
     icon: KeyRound,
     title: "Segurança Eletrônica",
-    description: "Instalação e manutenção de interfones, video porteiros, fechaduras eletrônicas e inteligentes, controle de acesso residencial e predial, garantindo mais segurança no dia a dia.",
+    description: "Instalação e manutenção de interfones, video porteiros, fechaduras eletrônicas, controle de acesso residencial e predial, garantindo mais segurança no dia a dia.",
     whatsappMessage: "Olá! Gostaria de um orçamento para segurança eletrônica e controle de acesso.",
   },
   {
