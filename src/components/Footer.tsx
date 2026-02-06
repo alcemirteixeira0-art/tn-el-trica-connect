@@ -3,6 +3,8 @@ import { Button } from "./ui/button";
 import logo from "@/assets/logo.png";
 const Footer = () => {
   const whatsappLink = "https://wa.me/5591999774401?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.";
+  const instagramlink = "https://www.instagram.com/alcemir.tn";
+  const facebooklink = "https://www.facebook.com/alcemir.1.5.2"
   return <footer id="contato" className="bg-electric-navy text-white">
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-secondary to-electric-yellow-dark py-12">
@@ -38,10 +40,10 @@ const Footer = () => {
                 Atendemos residências, comércios e indústrias.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
+                <a href={instagramlink} className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
+                <a href={facebooklink} className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all">
                   <Facebook className="w-5 h-5" />
                 </a>
               </div>
