@@ -16,9 +16,9 @@ const portfolioItems = [{
   description: "Instalação de sistemas de monitoramento com câmeras estrategicamente posicionadas, gravação contínua e acesso remoto."
 }, {
   image: work3,
-  title: "Automação Residencial",
+  title: "Motor de Portão Eletrônico",
   category: "Automação",
-  description: "Sistema de automação integrado para controle de iluminação e mídia."
+  description: "Instalação e fixação estrutural de motor para portão eletrônico, com ajuste de acionamento, alinhamento do trilho e garantia de funcionamento seguro e confiável.."
 }, {
   image: work4,
   title: "Manutenção Comercial",
