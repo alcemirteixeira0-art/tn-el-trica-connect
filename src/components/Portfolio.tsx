@@ -3,7 +3,7 @@ import { X } from "lucide-react";
 import work1 from "@/assets/quadro.jpg";
 import work2 from "@/assets/cftv.png";
 import work3 from "@/assets/motor.jpg";
-import work4 from "@/assets/work-4.jpg";
+import work4 from "@/assets/carregador.jpg";
 const portfolioItems = [{
   image: work1,
   title: "Instalação Residencial",
@@ -18,12 +18,12 @@ const portfolioItems = [{
   image: work3,
   title: "Motor de Portão Eletrônico",
   category: "Automação",
-  description: "Instalação e fixação estrutural de motor para portão eletrônico, com ajuste de acionamento, alinhamento do trilho e garantia de funcionamento seguro e confiável.."
+  description: "Instalação e fixação estrutural de motor para portão eletrônico, com ajuste de acionamento, alinhamento do trilho e garantia de funcionamento seguro e confiável."
 }, {
   image: work4,
-  title: "Manutenção Comercial",
-  category: "Comercial",
-  description: "Manutenção preventiva em quadro elétrico de estabelecimento comercial."
+  title: "Carregador para Veículo Elétrico",
+  category: "Mobilidade Elétrica",
+  description: "Instalação de carregador para carro elétrico, garantindo segurança, eficiência e praticidade no carregamento."
 }];
 const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState<typeof portfolioItems[0] | null>(null);
