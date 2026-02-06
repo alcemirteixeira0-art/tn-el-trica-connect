@@ -3,8 +3,6 @@ import { Button } from "./ui/button";
 import logo from "@/assets/logo.png";
 const Footer = () => {
   const whatsappLink = "https://wa.me/5591999774401?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.";
-  const instagramlink = "https://www.instagram.com/alcemir.tn";
-  const facebooklink = "https://www.facebook.com/alcemir.1.5.2";
   return <footer id="contato" className="bg-electric-navy text-white">
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-secondary to-electric-yellow-dark py-12">
