@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/", // Adicione esta linha para corrigir os caminhos no domínio próprio
   server: {
     host: "::",
     port: 8080,
