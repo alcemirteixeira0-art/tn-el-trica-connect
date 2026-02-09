@@ -35,7 +35,7 @@ const Footer = () => {
               <img alt="TN Elétrica & Automação" className="h-16 w-auto mb-6 bg-white rounded-lg p-2" src="/lovable-uploads/e950b1b6-2313-4256-8734-5f29e92b1fd2.png" />
               <p className="text-white/70 mb-6">
                 Soluções elétricas e de automação com qualidade, segurança e garantia. 
-                Atendemos residências, comércios e indústrias.
+                Atendemos residências e comércios.
               </p>
               
             </div>
@@ -120,10 +120,10 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-white/50 text-sm">
             <p>
-              © {new Date().getFullYear()} TN Elétrica & Automação. Todos os direitos reservados.
+              © {new Date().getFullYear()} © 2026 ⚡ TN Elétrica & Automação. Todos os direitos reservados.
             </p>
             <p>
-              Desenvolvido com ⚡ para sua segurança
+              Desenvolvido com excelência para sua segurança.
             </p>
           </div>
         </div>
