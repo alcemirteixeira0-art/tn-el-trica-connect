@@ -120,7 +120,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-white/50 text-sm">
             <p>
-              © {new Date().getFullYear()} © 2026 ⚡ TN Elétrica & Automação. Todos os direitos reservados.
+              © {new Date().getFullYear()} ⚡ TN Elétrica & Automação. Todos os direitos reservados.
             </p>
             <p>
               Desenvolvido com excelência para sua segurança.
