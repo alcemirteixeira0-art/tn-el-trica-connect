@@ -29,7 +29,7 @@ const Hero = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl">Atendemos em Belém e Regiões. Soluções elétricas completas para sua residência ou empresa com garantia. Orçamento imediato via WhatsApp.</p>
+          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl">Atendemos em Belém e Regiões. Soluções elétricas completas para sua residência ou empresa. Orçamento imediato via WhatsApp.</p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
