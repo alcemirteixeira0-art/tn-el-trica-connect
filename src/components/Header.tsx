@@ -19,12 +19,27 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md shadow-md">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-32">
+       <div className="relative flex items-center justify-between h-32">
           {/* Logo */}
-          <a href="#inicio" className="flex items-center gap-2">
-            <img src={logo} alt="TN Elétrica & Automação" className="h-32 w-32" />
-          </a>
-
+          <a
+  href="#inicio"
+  className="
+    absolute left-1/2 -translate-x-1/2
+    md:static md:translate-x-0
+    flex items-center
+  "
+>
+  <img
+    src={logo}
+    alt="TN Elétrica & Automação"
+    className="
+      h-40 w-40
+      md:h-32 md:w-32
+      transition-all
+    "
+  />
+</a>
+         
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
