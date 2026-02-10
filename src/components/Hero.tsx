@@ -36,7 +36,7 @@ const Hero = () => {
             <Button variant="hero" size="xl" asChild>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" />
-                Falar com Eletricista no WhatsApp
+                Chamar Eletricista no WhatsApp
                 <ArrowRight className="w-5 h-5" />
               </a>
             </Button>
