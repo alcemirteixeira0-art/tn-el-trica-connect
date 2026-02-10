@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md shadow-md">
       <div className="container mx-auto px-4">
-       <div className="relative flex items-center justify-between h-32">
+       <div className="relative flex items-center justify-between h-40">
           {/* Logo */}
           <a
   href="#inicio"
@@ -33,8 +33,8 @@ const Header = () => {
     src={logo}
     alt="TN Elétrica & Automação"
     className="
-      h-36 w-36
-      md:h-36 md:w-36
+      h-40 w-40
+      md:h-40 md:w-40
       transition-all
     "
   />
