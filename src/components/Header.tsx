@@ -33,8 +33,8 @@ const Header = () => {
     src={logo}
     alt="TN Elétrica & Automação"
     className="
-      h-40 w-40
-      md:h-32 md:w-32
+      h-36 w-36
+      md:h-36 md:w-36
       transition-all
     "
   />
