@@ -24,19 +24,19 @@ const Hero = () => {
 
           {/* Title */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
-            Sua Segurança é{" "}
-            <span className="text-gradient">Nossa Prioridade</span>
+            Eletricista Profissional{" "}
+            <span className="text-gradient">Atendimento Rápido & Seguro</span>
           </h1>
 
           {/* Description */}
-          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl">Serviços elétricos residenciais, comerciais e prediais com qualidade, segurança e garantia. E também, automação para modernizar seu espaço.</p>
+          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl">Atendemos em Belém e Regiões. Soluções elétricas completas para sua residência ou empresa com garantia. Orçamento imediato via WhatsApp.</p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button variant="hero" size="xl" asChild>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" />
-                Solicitar Orçamento
+                Falar com Eletricista no WhatsApp
                 <ArrowRight className="w-5 h-5" />
               </a>
             </Button>
