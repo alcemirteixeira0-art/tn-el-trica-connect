@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import work1 from "@/assets/qdc.jpg";
-import work2 from "@/assets/cftv.png";
+import work2 from "@/assets/CFTV.jpg";
 import work3 from "@/assets/motor.jpg";
 import work4 from "@/assets/carregador.jpg";
 const portfolioItems = [{
