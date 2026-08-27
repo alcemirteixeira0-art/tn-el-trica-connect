@@ -56,10 +56,17 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="cta" size="lg" asChild>
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                <Phone className="w-4 h-4" />
-                Orçamento Grátis
-              </a>
+              <a
+  href={whatsappLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => {
+    (window as any).gtag_report_conversion?.();
+  }}
+>
+  <Phone className="w-4 h-4" />
+  Orçamento Grátis
+</a>
             </Button>
           </div>
 
